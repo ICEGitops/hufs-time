@@ -1,0 +1,770 @@
+[
+  {
+    "department": "영어통번역학부",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "대학(교양)영어1"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "대학(교양)영어2"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "TED로배우는영어"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "TOEIC듣기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "드라마로배우는영어"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "미디어영어청취"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "실용영문법"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "실용영어글쓰기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "영어저널읽기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "취업영어"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "HUFS Survival English 1"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "HUFS Survival English 2"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "TOEIC말하기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "TOEIC읽기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "시사영어"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "영어발음이해와실습"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "영어베스트셀러읽기"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "영화로배우는영어"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "영어토론과스피치"
+  },
+  {
+    "department": "영어통번역학부",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "영어통번역학전공",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "영미권통상통번역전공",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "영미문학번역전공",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "TESOL영어학전공",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "이전 영어학부소속 학과",
+    "course_name": "통번역의이론과실제"
+  },
+  {
+    "department": "독일어통번역학과",
+    "course_name": "대학(교양)독일어1"
+  },
+  {
+    "department": "독일어통번역학과",
+    "course_name": "대학(교양)독일어2"
+  },
+  {
+    "department": "독일어통번역학과",
+    "course_name": "독일어의이해1"
+  },
+  {
+    "department": "독일어통번역학과",
+    "course_name": "독일어의이해2"
+  },
+  {
+    "department": "스페인어통번역학과",
+    "course_name": "대학(교양)스페인어1"
+  },
+  {
+    "department": "스페인어통번역학과",
+    "course_name": "대학(교양)스페인어2"
+  },
+  {
+    "department": "스페인어통번역학과",
+    "course_name": "스페인언어와문화탐방"
+  },
+  {
+    "department": "스페인어통번역학과",
+    "course_name": "실용스페인어기초다지기"
+  },
+  {
+    "department": "이탈리아어통번역학과",
+    "course_name": "대학(교양)이탈리아어1"
+  },
+  {
+    "department": "이탈리아어통번역학과",
+    "course_name": "대학(교양)이탈리아어2"
+  },
+  {
+    "department": "중국어통번역학과",
+    "course_name": "대학(교양)중국어1"
+  },
+  {
+    "department": "중국어통번역학과",
+    "course_name": "대학(교양)중국어2"
+  },
+  {
+    "department": "중국어통번역학과",
+    "course_name": "현대중국어문법"
+  },
+  {
+    "department": "중국어통번역학과",
+    "course_name": "여행중국어"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "대학(교양)일본어1"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "대학(교양)일본어2"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "일본어보케블러리"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "J-POP일본어"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "애니메이션일본어"
+  },
+  {
+    "department": "일본어통번역학과",
+    "course_name": "드라마일본어1"
+  },
+  {
+    "department": "말레이.인도네시아어통번역학과",
+    "course_name": "대학(교양)말레이.인도네시아어1"
+  },
+  {
+    "department": "말레이.인도네시아어통번역학과",
+    "course_name": "대학(교양)말레이.인도네시아어2"
+  },
+  {
+    "department": "아랍어통번역학과",
+    "course_name": "대학(교양)아랍어1"
+  },
+  {
+    "department": "아랍어통번역학과",
+    "course_name": "대학(교양)아랍어2"
+  },
+  {
+    "department": "아랍어통번역학과",
+    "course_name": "아랍어의이해1"
+  },
+  {
+    "department": "아랍어통번역학과",
+    "course_name": "아랍어의이해2"
+  },
+  {
+    "department": "프랑스학과",
+    "course_name": "대학(교양)프랑스어1"
+  },
+  {
+    "department": "프랑스학과",
+    "course_name": "대학(교양)프랑스어2"
+  },
+  {
+    "department": "프랑스학과",
+    "course_name": "프랑스어기초문법완성"
+  },
+  {
+    "department": "브라질학과",
+    "course_name": "대학(교양)포르투갈어1"
+  },
+  {
+    "department": "브라질학과",
+    "course_name": "대학(교양)포르투갈어2"
+  },
+  {
+    "department": "아프리카학부(공통)",
+    "course_name": "아프리카문화의이해"
+  },
+  {
+    "department": "러시아학과",
+    "course_name": "대학(교양)러시아어1"
+  },
+  {
+    "department": "러시아학과",
+    "course_name": "대학(교양)러시아어2"
+  },
+  {
+    "department": "러시아학과",
+    "course_name": "러시아어의이해1"
+  },
+  {
+    "department": "러시아학과",
+    "course_name": "러시아어의이해2"
+  },
+  {
+    "department": "자연과학대학(공통)",
+    "course_name": "기초대학수학"
+  },
+  {
+    "department": "자연과학대학(공통)",
+    "course_name": "기초미적분학1"
+  },
+  {
+    "department": "자연과학대학(공통)",
+    "course_name": "기초미적분학2"
+  },
+  {
+    "department": "자연과학대학(공통)",
+    "course_name": "일반물리1"
+  },
+  {
+    "department": "자연과학대학(공통)",
+    "course_name": "일반물리2"
+  },
+  {
+    "department": "공과대학(공통)",
+    "course_name": "정보사회의통계활용"
+  },
+  {
+    "department": "수학과",
+    "course_name": "사회과학을위한수학"
+  },
+  {
+    "department": "수학과",
+    "course_name": "수의세계"
+  },
+  {
+    "department": "수학과",
+    "course_name": "인공지능을위한기초수학"
+  },
+  {
+    "department": "수학과",
+    "course_name": "통계학개론"
+  },
+  {
+    "department": "수학과",
+    "course_name": "정보사회의통계활용"
+  },
+  {
+    "department": "통계학과",
+    "course_name": "통계학개론"
+  },
+  {
+    "department": "통계학과",
+    "course_name": "정보사회의통계활용"
+  },
+  {
+    "department": "화학과",
+    "course_name": "나노바이오화학"
+  },
+  {
+    "department": "화학과",
+    "course_name": "생명과화학"
+  },
+  {
+    "department": "화학과",
+    "course_name": "생활과화학"
+  },
+  {
+    "department": "전자물리학과",
+    "course_name": "일반물리1"
+  },
+  {
+    "department": "전자물리학과",
+    "course_name": "일반물리2"
+  },
+  {
+    "department": "전자물리학과",
+    "course_name": "사회과학을위한수학"
+  },
+  {
+    "department": "전자물리학과",
+    "course_name": "미시세계의과학1"
+  },
+  {
+    "department": "전자물리학과",
+    "course_name": "빛과물질"
+  },
+  {
+    "department": "환경학과",
+    "course_name": "에너지와지구환경"
+  },
+  {
+    "department": "환경학과",
+    "course_name": "인간과보건환경"
+  },
+  {
+    "department": "환경학과",
+    "course_name": "인간과생태계"
+  },
+  {
+    "department": "환경학과",
+    "course_name": "환경과삶"
+  },
+  {
+    "department": "생명공학과",
+    "course_name": "생명의이해"
+  },
+  {
+    "department": "생명공학과",
+    "course_name": "유전자와현대생활"
+  },
+  {
+    "department": "생명공학과",
+    "course_name": "생물의출현과진화"
+  },
+  {
+    "department": "융합인재대학 영어통번역세부모듈",
+    "course_name": "대학영어1"
+  },
+  {
+    "department": "융합인재대학 영어통번역세부모듈",
+    "course_name": "대학영어2"
+  },
+  {
+    "department": "융합인재대학 아랍어통번역세부모듈",
+    "course_name": "대학아랍어1"
+  },
+  {
+    "department": "융합인재대학 아랍어통번역세부모듈",
+    "course_name": "대학아랍어2"
+  },
+  {
+    "department": "융합인재대학 중국어통번역세부모듈",
+    "course_name": "대학중국어1"
+  },
+  {
+    "department": "융합인재대학 중국어통번역세부모듈",
+    "course_name": "대학중국어2"
+  },
+  {
+    "department": "융합인재대학 이탈리아.EU전략세부모듈",
+    "course_name": "대학이탈리아어1"
+  },
+  {
+    "department": "융합인재대학 이탈리아.EU전략세부모듈",
+    "course_name": "대학이탈리아어2"
+  }
+]

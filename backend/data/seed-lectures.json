@@ -1,0 +1,96 @@
+{
+  "departments": [
+    { "name": "정보통신공학과", "college": "공과대학" },
+    { "name": "컴퓨터공학과", "college": "공과대학" },
+    { "name": "영어학과", "college": "영어대학" },
+    { "name": "경영학과", "college": "경영대학" }
+  ],
+  "lectures": [
+    {
+      "department": "정보통신공학과",
+      "courses": [
+        { "code": "ICE2001", "name": "자료구조", "professor": "김정훈", "credit": 3, "category": "전공필수", "year": 2, "capacity": 45, "times": "월3,4(공B04) 수3(공B04)" },
+        { "code": "ICE2002", "name": "컴퓨터네트워크", "professor": "이승호", "credit": 3, "category": "전공필수", "year": 3, "capacity": 40, "times": "화5,6(공305) 목5(공305)" },
+        { "code": "ICE2003", "name": "운영체제", "professor": "박민수", "credit": 3, "category": "전공필수", "year": 3, "capacity": 40, "times": "월5,6(공301) 수5(공301)" },
+        { "code": "ICE2004", "name": "알고리즘", "professor": "김정훈", "credit": 3, "category": "전공필수", "year": 3, "capacity": 45, "times": "화3,4(공B04) 목3(공B04)" },
+        { "code": "ICE2005", "name": "데이터베이스", "professor": "정현우", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "월7,8(공302) 수7(공302)" },
+        { "code": "ICE2006", "name": "디지털논리회로", "professor": "최영진", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "화1,2(공B01) 목1(공B01)" },
+        { "code": "ICE2007", "name": "신호와시스템", "professor": "한기태", "credit": 3, "category": "전공필수", "year": 2, "capacity": 45, "times": "월1,2(공303) 수1(공303)" },
+        { "code": "ICE3001", "name": "임베디드시스템", "professor": "최영진", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "화7,8(공304) 목7(공304)" },
+        { "code": "ICE3002", "name": "인공지능", "professor": "이승호", "credit": 3, "category": "전공선택", "year": 4, "capacity": 40, "times": "월3,4(공305) 수3(공305)" },
+        { "code": "ICE3003", "name": "캡스톤디자인", "professor": "박민수", "credit": 3, "category": "전공필수", "year": 4, "capacity": 30, "times": "금3,4,5(공B04)" },
+        { "code": "ICE1001", "name": "프로그래밍기초", "professor": "정현우", "credit": 3, "category": "전공필수", "year": 1, "capacity": 50, "times": "화3,4(공B01) 목3(공B01)" },
+        { "code": "ICE1002", "name": "이산수학", "professor": "김정훈", "credit": 3, "category": "전공필수", "year": 1, "capacity": 50, "times": "월5,6(공B01) 수5(공B01)" },
+        { "code": "ICE3004", "name": "머신러닝", "professor": "이승호", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "화9,10(공302)" },
+        { "code": "ICE2008", "name": "웹프로그래밍", "professor": "정현우", "credit": 3, "category": "전공선택", "year": 2, "capacity": 45, "times": "수3,4(공304) 금3(공304)" },
+        { "code": "ICE3005", "name": "정보보안", "professor": "한기태", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "목5,6(공303) 금5(공303)" },
+        { "code": "ICE3006", "name": "소프트웨어공학", "professor": "박민수", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "화5,6(공301) 목6(공301)" },
+        { "code": "ICE1003", "name": "공학수학", "professor": "한기태", "credit": 3, "category": "전공필수", "year": 1, "capacity": 50, "times": "화1,2(공303) 목2(공303)" }
+      ]
+    },
+    {
+      "department": "컴퓨터공학과",
+      "courses": [
+        { "code": "CSE2001", "name": "객체지향프로그래밍", "professor": "양성봉", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "월1,2(공401) 수1(공401)" },
+        { "code": "CSE2002", "name": "컴퓨터구조", "professor": "오상윤", "credit": 3, "category": "전공필수", "year": 2, "capacity": 45, "times": "화3,4(공402) 목3(공402)" },
+        { "code": "CSE2003", "name": "시스템프로그래밍", "professor": "김태형", "credit": 3, "category": "전공필수", "year": 2, "capacity": 40, "times": "월5,6(공403) 수5(공403)" },
+        { "code": "CSE3001", "name": "컴파일러", "professor": "양성봉", "credit": 3, "category": "전공선택", "year": 3, "capacity": 35, "times": "화1,2(공401) 목1(공401)" },
+        { "code": "CSE3002", "name": "분산시스템", "professor": "오상윤", "credit": 3, "category": "전공선택", "year": 3, "capacity": 35, "times": "월7,8(공402) 수7(공402)" },
+        { "code": "CSE3003", "name": "딥러닝", "professor": "임준호", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "화5,6(공404) 목5(공404)" },
+        { "code": "CSE3004", "name": "클라우드컴퓨팅", "professor": "김태형", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "월3,4(공404) 수4(공404)" },
+        { "code": "CSE3005", "name": "자연어처리", "professor": "임준호", "credit": 3, "category": "전공선택", "year": 4, "capacity": 30, "times": "금1,2,3(공401)" },
+        { "code": "CSE2004", "name": "선형대수", "professor": "임준호", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "화7,8(공403) 목7(공403)" },
+        { "code": "CSE1001", "name": "C프로그래밍", "professor": "김태형", "credit": 3, "category": "전공필수", "year": 1, "capacity": 50, "times": "월3,4(공B02) 수3(공B02)" },
+        { "code": "CSE1002", "name": "미적분학", "professor": "오상윤", "credit": 3, "category": "전공필수", "year": 1, "capacity": 50, "times": "화1,2(공B02) 목2(공B02)" },
+        { "code": "CSE3006", "name": "모바일프로그래밍", "professor": "양성봉", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "수5,6(공401) 금5(공401)" },
+        { "code": "CSE3007", "name": "빅데이터분석", "professor": "임준호", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "화9,10(공404)" },
+        { "code": "CSE3008", "name": "캡스톤디자인", "professor": "김태형", "credit": 3, "category": "전공필수", "year": 4, "capacity": 30, "times": "금4,5,6(공402)" },
+        { "code": "CSE2005", "name": "확률과통계", "professor": "오상윤", "credit": 3, "category": "전공필수", "year": 2, "capacity": 45, "times": "월9,10(공402)" },
+        { "code": "CSE2006", "name": "오토마타", "professor": "양성봉", "credit": 3, "category": "전공필수", "year": 2, "capacity": 45, "times": "화3,4(공401) 목4(공401)" }
+      ]
+    },
+    {
+      "department": "영어학과",
+      "courses": [
+        { "code": "ENG1001", "name": "영어학개론", "professor": "박지영", "credit": 3, "category": "전공필수", "year": 1, "capacity": 40, "times": "월1,2(본201) 수1(본201)" },
+        { "code": "ENG1002", "name": "영문법", "professor": "이수진", "credit": 3, "category": "전공필수", "year": 1, "capacity": 40, "times": "화3,4(본202) 목3(본202)" },
+        { "code": "ENG2001", "name": "영어음성학", "professor": "박지영", "credit": 3, "category": "전공필수", "year": 2, "capacity": 35, "times": "월3,4(본203) 수3(본203)" },
+        { "code": "ENG2002", "name": "영어통사론", "professor": "최민정", "credit": 3, "category": "전공필수", "year": 2, "capacity": 35, "times": "화5,6(본201) 목5(본201)" },
+        { "code": "ENG2003", "name": "영미문학개론", "professor": "김선호", "credit": 3, "category": "전공선택", "year": 2, "capacity": 40, "times": "월5,6(본204) 수5(본204)" },
+        { "code": "ENG2004", "name": "영어회화", "professor": "Smith, John", "credit": 2, "category": "전공선택", "year": 2, "capacity": 25, "times": "화1,2(본205)" },
+        { "code": "ENG3001", "name": "영어의미론", "professor": "최민정", "credit": 3, "category": "전공선택", "year": 3, "capacity": 30, "times": "화7,8(본203) 목7(본203)" },
+        { "code": "ENG3002", "name": "영어사", "professor": "이수진", "credit": 3, "category": "전공선택", "year": 3, "capacity": 35, "times": "월7,8(본201) 수7(본201)" },
+        { "code": "ENG3003", "name": "영한번역연습", "professor": "김선호", "credit": 3, "category": "전공선택", "year": 3, "capacity": 30, "times": "금1,2,3(본204)" },
+        { "code": "ENG3004", "name": "영어교육론", "professor": "박지영", "credit": 3, "category": "전공선택", "year": 3, "capacity": 35, "times": "화3,4(본205) 목4(본205)" },
+        { "code": "ENG3005", "name": "사회언어학", "professor": "최민정", "credit": 3, "category": "전공선택", "year": 3, "capacity": 30, "times": "수3,4(본202) 금3(본202)" },
+        { "code": "ENG4001", "name": "영어학세미나", "professor": "이수진", "credit": 3, "category": "전공선택", "year": 4, "capacity": 25, "times": "월3,4(본205)" },
+        { "code": "ENG4002", "name": "코퍼스언어학", "professor": "최민정", "credit": 3, "category": "전공선택", "year": 4, "capacity": 25, "times": "목1,2(본203)" },
+        { "code": "ENG2005", "name": "영작문", "professor": "Smith, John", "credit": 2, "category": "전공선택", "year": 2, "capacity": 25, "times": "목5,6(본205)" },
+        { "code": "ENG1003", "name": "실용영어", "professor": "Smith, John", "credit": 2, "category": "전공필수", "year": 1, "capacity": 30, "times": "수5,6(본205)" },
+        { "code": "ENG4003", "name": "통번역실습", "professor": "김선호", "credit": 3, "category": "전공선택", "year": 4, "capacity": 25, "times": "화5,6(본204) 목6(본204)" }
+      ]
+    },
+    {
+      "department": "경영학과",
+      "courses": [
+        { "code": "BIZ1001", "name": "경영학원론", "professor": "조현석", "credit": 3, "category": "전공필수", "year": 1, "capacity": 60, "times": "월1,2(경101) 수1(경101)" },
+        { "code": "BIZ1002", "name": "회계원리", "professor": "윤재훈", "credit": 3, "category": "전공필수", "year": 1, "capacity": 60, "times": "화3,4(경102) 목3(경102)" },
+        { "code": "BIZ1003", "name": "경제학원론", "professor": "이하나", "credit": 3, "category": "전공필수", "year": 1, "capacity": 60, "times": "월5,6(경101) 수5(경101)" },
+        { "code": "BIZ2001", "name": "마케팅원론", "professor": "조현석", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "화1,2(경201) 목1(경201)" },
+        { "code": "BIZ2002", "name": "재무관리", "professor": "윤재훈", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "월3,4(경202) 수3(경202)" },
+        { "code": "BIZ2003", "name": "인적자원관리", "professor": "강민지", "credit": 3, "category": "전공선택", "year": 2, "capacity": 45, "times": "화5,6(경201) 목5(경201)" },
+        { "code": "BIZ2004", "name": "경영통계학", "professor": "이하나", "credit": 3, "category": "전공필수", "year": 2, "capacity": 50, "times": "월7,8(경101) 수7(경101)" },
+        { "code": "BIZ2005", "name": "생산운영관리", "professor": "강민지", "credit": 3, "category": "전공선택", "year": 2, "capacity": 45, "times": "화7,8(경202) 목7(경202)" },
+        { "code": "BIZ3001", "name": "소비자행동론", "professor": "조현석", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "월3,4(경201) 수4(경201)" },
+        { "code": "BIZ3002", "name": "투자론", "professor": "윤재훈", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "화3,4(경203) 목4(경203)" },
+        { "code": "BIZ3003", "name": "조직행동론", "professor": "강민지", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "월5,6(경203) 수6(경203)" },
+        { "code": "BIZ3004", "name": "경영정보시스템", "professor": "이하나", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "금1,2,3(경201)" },
+        { "code": "BIZ3005", "name": "국제경영론", "professor": "조현석", "credit": 3, "category": "전공선택", "year": 3, "capacity": 40, "times": "화9,10(경201)" },
+        { "code": "BIZ4001", "name": "전략경영", "professor": "강민지", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "화1,2(경203) 목2(경203)" },
+        { "code": "BIZ4002", "name": "기업윤리", "professor": "윤재훈", "credit": 3, "category": "전공선택", "year": 4, "capacity": 35, "times": "수3,4(경203) 금4(경203)" },
+        { "code": "BIZ4003", "name": "창업론", "professor": "이하나", "credit": 3, "category": "전공선택", "year": 4, "capacity": 30, "times": "목5,6(경203)" },
+        { "code": "BIZ2006", "name": "세무회계", "professor": "윤재훈", "credit": 3, "category": "전공선택", "year": 2, "capacity": 45, "times": "수5,6(경202) 금5(경202)" }
+      ]
+    }
+  ]
+}

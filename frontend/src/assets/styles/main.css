@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800 antialiased;
+    font-feature-settings: 'kern';
+  }
+
+  /* 스크롤바 스타일링 */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-200 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-300;
+  }
+}
+
+@layer components {
+  /* 로딩 스켈레톤 */
+  .skeleton {
+    @apply bg-gray-100 rounded animate-pulse-soft;
+  }
+}
+
+/* 페이지 전환 트랜지션 */
+.page-enter-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.page-leave-active {
+  transition: opacity 0.15s ease;
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.page-leave-to {
+  opacity: 0;
+}
+
+/* 강의 카드 리스트 트랜지션 */
+.lecture-list-enter-active {
+  transition: all 0.25s ease;
+}
+.lecture-list-leave-active {
+  transition: all 0.2s ease;
+}
+.lecture-list-enter-from {
+  opacity: 0;
+  transform: translateX(-12px);
+}
+.lecture-list-leave-to {
+  opacity: 0;
+  transform: translateX(12px);
+}
+
+/* 시간표 셀 트랜지션 */
+.cell-enter-active {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.cell-leave-active {
+  transition: all 0.2s ease;
+}
+.cell-enter-from {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.cell-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}

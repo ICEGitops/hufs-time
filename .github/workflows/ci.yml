@@ -1,0 +1,98 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+
+env:
+  REGISTRY: ghcr.io
+  FRONT_IMAGE: ghcr.io/${{ github.repository }}/frontend
+  BACK_IMAGE: ghcr.io/${{ github.repository }}/backend
+  GITOPS_REPO: hufs-ice/gitops
+  FRONT_PROJECT: hufs-timetable
+  BACK_PROJECT: hufs-timetable-back
+
+jobs:
+  build-frontend:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push frontend
+        uses: docker/build-push-action@v5
+        with:
+          context: ./frontend
+          push: true
+          tags: |
+            ${{ env.FRONT_IMAGE }}:${{ github.sha }}
+            ${{ env.FRONT_IMAGE }}:latest
+
+  build-backend:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push backend
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          push: true
+          tags: |
+            ${{ env.BACK_IMAGE }}:${{ github.sha }}
+            ${{ env.BACK_IMAGE }}:latest
+
+  deploy:
+    needs: [build-frontend, build-backend]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update GitOps repo (frontend)
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITOPS_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'hufs-ice',
+              repo: 'gitops',
+              workflow_id: 'update-image.yml',
+              ref: 'main',
+              inputs: {
+                project: '${{ env.FRONT_PROJECT }}',
+                image: '${{ env.FRONT_IMAGE }}:${{ github.sha }}'
+              }
+            })
+
+      - name: Update GitOps repo (backend)
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITOPS_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'hufs-ice',
+              repo: 'gitops',
+              workflow_id: 'update-image.yml',
+              ref: 'main',
+              inputs: {
+                project: '${{ env.BACK_PROJECT }}',
+                image: '${{ env.BACK_IMAGE }}:${{ github.sha }}'
+              }
+            })

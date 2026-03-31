@@ -1,0 +1,2394 @@
+[
+  {
+    "college": "인문대학",
+    "department": "철학과",
+    "major_code": "ANDA2",
+    "course_code": "V31201",
+    "course_name": "논리학",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "철학과",
+    "major_code": "ANDA2",
+    "course_code": "V42301",
+    "course_name": "서양고.중세철학사",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "철학과",
+    "major_code": "ANDA2",
+    "course_code": "R01108",
+    "course_name": "중국고.중세철학사",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "철학과",
+    "major_code": "ANDA2",
+    "course_code": "R04103",
+    "course_name": "철학입문",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "사학과",
+    "major_code": "ANDB2",
+    "course_code": "R02400",
+    "course_name": "고적답사",
+    "note": null
+  },
+  {
+    "college": "인문대학",
+    "department": "사학과",
+    "major_code": "",
+    "course_code": "R02103",
+    "course_name": "한국사입문",
+    "note": "2010학년도 지정"
+  },
+  {
+    "college": "인문대학",
+    "department": "사학과",
+    "major_code": "",
+    "course_code": "R05161",
+    "course_name": "동아시아현대사",
+    "note": "2025학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "사학과",
+    "major_code": "",
+    "course_code": "R05212",
+    "course_name": "서양근대사",
+    "note": "2025학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "언어인지과학과",
+    "major_code": "ANDC2",
+    "course_code": "R03203",
+    "course_name": "형태분석",
+    "note": "2025학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "언어인지과학과",
+    "major_code": "ANDC2",
+    "course_code": "R07301",
+    "course_name": "의미론",
+    "note": "2025학번 이후"
+  },
+  {
+    "college": "인문대학",
+    "department": "언어인지과학과",
+    "major_code": "ANDC2",
+    "course_code": "R03204",
+    "course_name": "문장분석",
+    "note": "2025학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학부",
+    "major_code": "AO1",
+    "course_code": "N01111",
+    "course_name": "영.미문학입문",
+    "note": "2006학번 이후, 이중전공, 편입생 포함"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학부",
+    "major_code": "AO1",
+    "course_code": "N01112",
+    "course_name": "영.미사회문화의기초",
+    "note": "2006학번 이후, 이중전공, 편입생 포함"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학부",
+    "major_code": "AO1",
+    "course_code": "A01121",
+    "course_name": "영어학개론(1)",
+    "note": "2006학번 이후, 이중전공, 편입생 포함"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학부",
+    "major_code": "AO1",
+    "course_code": "N01113",
+    "course_name": "통역번역의이해",
+    "note": "2006학번 이후, 이중전공, 편입생 포함"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01111",
+    "course_name": "영.미문학입문",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01112",
+    "course_name": "영.미사회문화의기초",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "A01121",
+    "course_name": "영어학개론(1)",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01113",
+    "course_name": "통역번역의이해",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01362",
+    "course_name": "고급시역과통역",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01417",
+    "course_name": "고급영.한순차통역",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01366",
+    "course_name": "고급한.영순차통역",
+    "note": "2008~2015학번"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01207",
+    "course_name": "모의국제회의",
+    "note": "2008학번 이후, 모의국제회의1, 모의국제회의2(N01210)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "A01427",
+    "course_name": "번역PRACTICUM",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "A01242",
+    "course_name": "영.한시역",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N03111",
+    "course_name": "정치.시사번역",
+    "note": "2008학번 이후, 정치경제번역(N01367)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01407",
+    "course_name": "통역PRACTICUM",
+    "note": "2008학번 이후, 통역PRACTICUM1, 통역PRACTICUM2(N01414)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01209",
+    "course_name": "한.영번역",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N03212",
+    "course_name": "전문경제번역",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영어통번역학전공",
+    "major_code": "AO1A2",
+    "course_code": "N01247",
+    "course_name": "노트테이킹과기초통역",
+    "note": "2014학번 이후, 노트테이킹과기초통역연습(1), 노트테이킹과기초통역연습(2)(N01248)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미권통상통번역전공",
+    "major_code": "AO1B2",
+    "course_code": "N01111",
+    "course_name": "영.미문학입문",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미권통상통번역전공",
+    "major_code": "AO1B2",
+    "course_code": "N01112",
+    "course_name": "영.미사회문화의기초",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미권통상통번역전공",
+    "major_code": "AO1B2",
+    "course_code": "A01121",
+    "course_name": "영어학개론(1)",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미권통상통번역전공",
+    "major_code": "AO1B2",
+    "course_code": "N01113",
+    "course_name": "통역번역의이해",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미문학·번역전공",
+    "major_code": "AO1C2",
+    "course_code": "N01111",
+    "course_name": "영.미문학입문",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미문학·번역전공",
+    "major_code": "AO1C2",
+    "course_code": "N01112",
+    "course_name": "영.미사회문화의기초",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미문학·번역전공",
+    "major_code": "AO1C2",
+    "course_code": "A01121",
+    "course_name": "영어학개론(1)",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "영미문학·번역전공",
+    "major_code": "AO1C2",
+    "course_code": "N01113",
+    "course_name": "통역번역의이해",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "TESOL영어학전공",
+    "major_code": "AO1D2",
+    "course_code": "N01111",
+    "course_name": "영.미문학입문",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "TESOL영어학전공",
+    "major_code": "AO1D2",
+    "course_code": "N01112",
+    "course_name": "영.미사회문화의기초",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "TESOL영어학전공",
+    "major_code": "AO1D2",
+    "course_code": "A01121",
+    "course_name": "영어학개론(1)",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "TESOL영어학전공",
+    "major_code": "AO1D2",
+    "course_code": "N01113",
+    "course_name": "통역번역의이해",
+    "note": "2006학번 이후, 이중전공, 편입생 포함, 영어통번역학부 개설 교과목"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03207",
+    "course_name": "독일어독해연습1",
+    "note": "2009학번 이후, 독일어번역연습1(N03205)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03208",
+    "course_name": "독일어독해연습2",
+    "note": "2009학번 이후, 독일어번역연습2(N03206)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03315",
+    "course_name": "독일어번역실습1",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03316",
+    "course_name": "독일어번역실습2",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03131",
+    "course_name": "독일어연습1",
+    "note": "2007학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03132",
+    "course_name": "독일어연습2",
+    "note": "2007학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03135",
+    "course_name": "독일어연습3",
+    "note": "2007학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03136",
+    "course_name": "독일어연습4",
+    "note": "2007학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03139",
+    "course_name": "독일어읽기1",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03140",
+    "course_name": "독일어읽기2",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03313",
+    "course_name": "독일어통역실습1",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "N03314",
+    "course_name": "독일어통역실습2",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03141",
+    "course_name": "문법과텍스트이해1",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03142",
+    "course_name": "문법과텍스트이해2",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03133",
+    "course_name": "전공교양세미나1",
+    "note": "2006학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03134",
+    "course_name": "전공교양세미나2",
+    "note": "2006학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03137",
+    "course_name": "전공교양세미나3",
+    "note": "2006학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "독일어통번역학과",
+    "major_code": "AOC02",
+    "course_code": "A03138",
+    "course_name": "전공교양세미나4",
+    "note": "2006학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05303",
+    "course_name": "고급스페인어작문(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05304",
+    "course_name": "고급스페인어작문(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05301",
+    "course_name": "고급스페인어회화(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05302",
+    "course_name": "고급스페인어회화(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05209",
+    "course_name": "라틴아메리카역사세미나(1)",
+    "note": "2014학번 이후, 중남미역사문화세미나(1)(N05209)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05210",
+    "course_name": "라틴아메리카역사세미나(2)",
+    "note": "2014학번 이후, 중남미역사문화세미나(2)(N05210)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05211",
+    "course_name": "매스미디어로본이베로아메리카(1)",
+    "note": "초급시청각스페인어(1)(N05101)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05212",
+    "course_name": "매스미디어로본이베로아메리카(2)",
+    "note": "초급시청각스페인어(2)(N05102)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05109",
+    "course_name": "스페인역사문화세미나(1)",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05110",
+    "course_name": "스페인역사문화세미나(2)",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05221",
+    "course_name": "중급스페인어강독(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05222",
+    "course_name": "중급스페인어강독(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05207",
+    "course_name": "중급스페인어문법(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05208",
+    "course_name": "중급스페인어문법(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05207",
+    "course_name": "중급스페인어스피치실습(1)",
+    "note": "중급스페인어구술평가(1)(N05201)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05208",
+    "course_name": "중급스페인어스피치실습(2)",
+    "note": "중급스페인어구술평가(2)(N05202)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05232",
+    "course_name": "중급스페인어작문(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05233",
+    "course_name": "중급스페인어작문(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05205",
+    "course_name": "중급스페인어회화(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05206",
+    "course_name": "중급스페인어회화(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05103",
+    "course_name": "초급스페인어강독(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05104",
+    "course_name": "초급스페인어강독(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05109",
+    "course_name": "초급스페인어문법(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05110",
+    "course_name": "초급스페인어문법(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05107",
+    "course_name": "초급스페인어스피치실습(1)",
+    "note": "초급스페인어구술평가(1)(N05103)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "N05108",
+    "course_name": "초급스페인어스피치실습(2)",
+    "note": "초급스페인어구술평가(2)(N05104)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05107",
+    "course_name": "초급스페인어작문(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05108",
+    "course_name": "초급스페인어작문(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05117",
+    "course_name": "초급스페인어회화(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "스페인어통번역학과",
+    "major_code": "AOD02",
+    "course_code": "A05118",
+    "course_name": "초급스페인어회화(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06311",
+    "course_name": "이탈리아문학사1",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06312",
+    "course_name": "이탈리아문학사2",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06107",
+    "course_name": "이탈리아어초급문법1",
+    "note": "2008학번 이후, 이탈리아어초급문법의이해(1)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06108",
+    "course_name": "이탈리아어초급문법2",
+    "note": "2008학번 이후, 이탈리아어초급문법의이해(2)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06207",
+    "course_name": "중급이탈리아어듣기1",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06208",
+    "course_name": "중급이탈리아어듣기2",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06203",
+    "course_name": "중급이탈리아어말하기(1)",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06204",
+    "course_name": "중급이탈리아어말하기(2)",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06209",
+    "course_name": "중급이탈리아어쓰기1",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06210",
+    "course_name": "중급이탈리아어쓰기2",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06205",
+    "course_name": "중급이탈리아어읽기1",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06206",
+    "course_name": "중급이탈리아어읽기2",
+    "note": "2008학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06103",
+    "course_name": "초급이탈리아어듣기1",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06104",
+    "course_name": "초급이탈리아어듣기2",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06109",
+    "course_name": "초급이탈리아어말하기1",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06110",
+    "course_name": "초급이탈리아어말하기2",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06111",
+    "course_name": "초급이탈리아어쓰기1",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06112",
+    "course_name": "초급이탈리아어쓰기2",
+    "note": "2010학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06105",
+    "course_name": "초급이탈리아어읽기1",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06106",
+    "course_name": "초급이탈리아어읽기2",
+    "note": "2009학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06215",
+    "course_name": "이탈리아어문학작품읽기1",
+    "note": "2020학번 이후, 편입 2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06216",
+    "course_name": "이탈리아어문학작품읽기2",
+    "note": "2020학번 이후, 편입 2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06217",
+    "course_name": "전공교양세미나3",
+    "note": "2020학번 이후, 편입 2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06218",
+    "course_name": "전공교양세미나4",
+    "note": "2020학번 이후, 편입 2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06113",
+    "course_name": "전공교양토론1",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "이탈리아어통번역학과",
+    "major_code": "AOE02",
+    "course_code": "N06114",
+    "course_name": "전공교양토론2",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01124",
+    "course_name": "중국어표현과통역(1)",
+    "note": "중국어언어실습(1)(O01115)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01125",
+    "course_name": "중국어표현과통역(2)",
+    "note": "중국어언어실습(2)(O01116)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01201",
+    "course_name": "중급중국어회화작문(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01202",
+    "course_name": "중급중국어회화작문(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01111",
+    "course_name": "초급중국어강독(1)",
+    "note": "중국어강독(1)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01112",
+    "course_name": "초급중국어강독(2)",
+    "note": "중국어강독(2)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "B01201",
+    "course_name": "중급중국어강독(1)",
+    "note": "1전공생 : 2020학번 이후, 편입 2018학번 이후\n이중전공, 부전공생 : 2019학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "B01202",
+    "course_name": "중급중국어강독(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01307",
+    "course_name": "고급중국어회화작문(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "중국어통번역학과",
+    "major_code": "AORA2",
+    "course_code": "O01308",
+    "course_name": "고급중국어회화작문(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02129",
+    "course_name": "기초작문연습(1)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02130",
+    "course_name": "기초작문연습(2)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02107",
+    "course_name": "기초회화연습(1)",
+    "note": "2010학번 이전은 초급일본어회화(1)(B02121)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02108",
+    "course_name": "기초회화연습(2)",
+    "note": "2010학번 이전은 초급일본어회화(2)(B02122)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02382",
+    "course_name": "시사일본어회화",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02371",
+    "course_name": "실용일본어회화",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02101",
+    "course_name": "일본어강독연습(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02102",
+    "course_name": "일본어강독연습(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02103",
+    "course_name": "일본어독해연습(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02104",
+    "course_name": "일본어독해연습(2)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02105",
+    "course_name": "일본어듣기연습(1)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "O02106",
+    "course_name": "일본어듣기연습(2)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02114",
+    "course_name": "일본어원서강독(1)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02115",
+    "course_name": "일본어원서강독(2)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02116",
+    "course_name": "일본어원서독해(1)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02119",
+    "course_name": "일본어원서독해(2)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02211",
+    "course_name": "중급일본어회화(1)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "일본어통번역학과",
+    "major_code": "AORB2",
+    "course_code": "B02212",
+    "course_name": "중급일본어회화(2)",
+    "note": "2011학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "O04409",
+    "course_name": "고급실무아랍어",
+    "note": "2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "O04422",
+    "course_name": "아랍무역실무",
+    "note": "2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "B04456",
+    "course_name": "아랍어구어체연구",
+    "note": "2018학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "O04101",
+    "course_name": "초급아랍어쓰기(1)",
+    "note": "2008학번 이후, 아랍어문장분석1(1)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "O04102",
+    "course_name": "초급아랍어쓰기(2)",
+    "note": "2008학번 이후, 아랍어문장분석1(2)도 인정"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "B04102",
+    "course_name": "중급아랍어문법(1)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "B04112",
+    "course_name": "중급아랍어문법(2)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "B04223",
+    "course_name": "중급아랍어회화(1)",
+    "note": null
+  },
+  {
+    "college": "통번역대학",
+    "department": "아랍어통번역학과",
+    "major_code": "AORG2",
+    "course_code": "B04224",
+    "course_name": "중급아랍어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "폴란드학과",
+    "major_code": "APB02",
+    "course_code": "N10108",
+    "course_name": "폴란드어A2말하기(1)",
+    "note": "중급폴란드어회화(1)도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "폴란드학과",
+    "major_code": "APB02",
+    "course_code": "N10118",
+    "course_name": "폴란드어A2말하기(2)",
+    "note": "중급폴란드어회화(2)도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "폴란드학과",
+    "major_code": "APB02",
+    "course_code": "N10107",
+    "course_name": "폴란드어A1말하기(1)",
+    "note": "초급폴란드어회화(1)도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "폴란드학과",
+    "major_code": "APB02",
+    "course_code": "N10117",
+    "course_name": "폴란드어A1말하기(2)",
+    "note": "초급폴란드어회화(2)도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11371",
+    "course_name": "고급루마니아어회화(1)",
+    "note": "2019학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11372",
+    "course_name": "고급루마니아어회화(2)",
+    "note": "2019학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11106",
+    "course_name": "중급루마니아어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11116",
+    "course_name": "중급루마니아어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11105",
+    "course_name": "초급루마니아어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "루마니아학과",
+    "major_code": "APC02",
+    "course_code": "N11115",
+    "course_name": "초급루마니아어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12108",
+    "course_name": "기초슬로바키아어",
+    "note": "2014학번 이후, 체코어발음과듣기연습2도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12205",
+    "course_name": "중급체코어회화1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12206",
+    "course_name": "중급체코어회화2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12107",
+    "course_name": "체코어발음과듣기연습1",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12121",
+    "course_name": "초급체코어문법작문1",
+    "note": "2014학번 이후, 초급체코어문법1도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12122",
+    "course_name": "초급체코어문법작문2",
+    "note": "2014학번 이후, 초급체코어문법2도 인정"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12115",
+    "course_name": "중급체코어문법작문1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "체코·슬로바키아학과",
+    "major_code": "APD02",
+    "course_code": "N12116",
+    "course_name": "중급체코어문법작문2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13104",
+    "course_name": "중급헝가리어문법작문(1)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13114",
+    "course_name": "중급헝가리어문법작문(2)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13201",
+    "course_name": "중급헝가리어번역연습(1)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13202",
+    "course_name": "중급헝가리어번역연습(2)",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13106",
+    "course_name": "중급헝가리어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13116",
+    "course_name": "중급헝가리어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13105",
+    "course_name": "초급헝가리어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13115",
+    "course_name": "초급헝가리어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13123",
+    "course_name": "초급헝가리어번역연습(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13124",
+    "course_name": "초급헝가리어번역연습(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13110",
+    "course_name": "헝가리개관",
+    "note": "2020학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "헝가리학과",
+    "major_code": "APE02",
+    "course_code": "N13122",
+    "course_name": "초급시청각헝가리어(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14111",
+    "course_name": "세르비아어회화1",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14135",
+    "course_name": "세르비아어회화2",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14213",
+    "course_name": "크로아티아어회화1",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14233",
+    "course_name": "크로아티아어회화2",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14128",
+    "course_name": "세어번역연습1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14129",
+    "course_name": "세어번역연습2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14112",
+    "course_name": "유고학입문1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14116",
+    "course_name": "유고학입문2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14367",
+    "course_name": "유고역사1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14368",
+    "course_name": "유고역사2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14132",
+    "course_name": "크어번역연습1",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "세르비아.크로아티아학과",
+    "major_code": "APF02",
+    "course_code": "N14134",
+    "course_name": "크어번역연습2",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16103",
+    "course_name": "기초우크라이나어말하기",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16104",
+    "course_name": "기초우크라이나어말하기(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16115",
+    "course_name": "기초우크라이나어실습",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16107",
+    "course_name": "기초우크라이나어쓰기와문법",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "",
+    "course_code": "N16116",
+    "course_name": "기초우크라이나어쓰기와문법(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "",
+    "course_code": "N16101",
+    "course_name": "디지털시대의우크라이나학",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "",
+    "course_code": "N16102",
+    "course_name": "디지털시대의우크라이나학(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "",
+    "course_code": "N16209",
+    "course_name": "우크라이나역사와인물(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16210",
+    "course_name": "우크라이나역사와인물(2)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16203",
+    "course_name": "중급우크라이나어문법작문(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16201",
+    "course_name": "중급우크라이나어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국가전략언어대학",
+    "department": "우크라이나학과",
+    "major_code": "APG02",
+    "course_code": "N16202",
+    "course_name": "중급우크라이나어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02215",
+    "course_name": "중급프랑스어강독(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02216",
+    "course_name": "중급프랑스어강독(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02217",
+    "course_name": "중급프랑스어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02218",
+    "course_name": "중급프랑스어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02147",
+    "course_name": "초급프랑스어강독(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02148",
+    "course_name": "초급프랑스어강독(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02149",
+    "course_name": "초급프랑스어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "A02150",
+    "course_name": "초급프랑스어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "N02307",
+    "course_name": "프랑스어스피치와에세이1",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "N02308",
+    "course_name": "프랑스어스피치와에세이2",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "N02117",
+    "course_name": "프랑스학교양토론(1)",
+    "note": "2014학번 이후, 프랑스학교양세미나1도 인정"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "프랑스학과",
+    "major_code": "AQ102",
+    "course_code": "N02118",
+    "course_name": "프랑스학교양토론(2)",
+    "note": "2014학번 이후, 프랑스학교양세미나2도 인정"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07202",
+    "course_name": "중급포르투갈어강독(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07207",
+    "course_name": "중급포르투갈어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07208",
+    "course_name": "중급포르투갈어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07113",
+    "course_name": "초급포르투갈어문법작문(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07114",
+    "course_name": "초급포르투갈어문법작문(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07115",
+    "course_name": "초급포르투갈어회화(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "A07116",
+    "course_name": "초급포르투갈어회화(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "N07101",
+    "course_name": "브라질사",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "브라질학과",
+    "major_code": "AQ202",
+    "course_code": "N07102",
+    "course_name": "브라질-중남미사",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "인도학과",
+    "major_code": "AQF02",
+    "course_code": "B07303",
+    "course_name": "중급힌디어문법(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "인도학과",
+    "major_code": "AQF02",
+    "course_code": "B07317",
+    "course_name": "중급힌디어문법(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "인도학과",
+    "major_code": "AQF02",
+    "course_code": "B07100",
+    "course_name": "초급힌디어강독(1)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "인도학과",
+    "major_code": "AQF02",
+    "course_code": "B07101",
+    "course_name": "초급힌디어강독(2)",
+    "note": null
+  },
+  {
+    "college": "국제지역대학",
+    "department": "러시아학과",
+    "major_code": "AQJ02",
+    "course_code": "A04131",
+    "course_name": "러시아어말하기(1)",
+    "note": "2007학번 이후, 러시아어회화(1)(A04127)도 인정"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "러시아학과",
+    "major_code": "AQJ02",
+    "course_code": "A04132",
+    "course_name": "러시아어말하기(2)",
+    "note": "2007학번 이후, 러시아어회화(2)(A04128)도 인정"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "러시아학과",
+    "major_code": "AQJ02",
+    "course_code": "A04223",
+    "course_name": "러시아어말하기심화(1)",
+    "note": "2007학번 이후, 러시아어회화심화(1)(A04219)도 인정"
+  },
+  {
+    "college": "국제지역대학",
+    "department": "러시아학과",
+    "major_code": "AQJ02",
+    "course_code": "A04224",
+    "course_name": "러시아어말하기심화(2)",
+    "note": "2007학번 이후, 러시아어회화심화(2)(A04220)도 인정"
+  },
+  {
+    "college": "경상대학",
+    "department": "국제금융학과",
+    "major_code": "ARCA1",
+    "course_code": "P01305",
+    "course_name": "금융시장론",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "경상대학",
+    "department": "국제금융학과",
+    "major_code": "ARCA1",
+    "course_code": "D01311",
+    "course_name": "재무관리",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "경상대학",
+    "department": "국제금융학과",
+    "major_code": "ARCA1",
+    "course_code": "D01409",
+    "course_name": "투자론",
+    "note": "2016학번 이후"
+  },
+  {
+    "college": "경상대학",
+    "department": "국제금융학과",
+    "major_code": "ARCA1",
+    "course_code": "P01311",
+    "course_name": "파이낸스어낼리틱스",
+    "note": "2016학번 이후, 금융계량분석도 인정"
+  },
+  {
+    "college": "경상대학",
+    "department": "Global Business & Technology전공",
+    "major_code": "ARDA1",
+    "course_code": "D01203",
+    "course_name": "경영학원론",
+    "note": null
+  },
+  {
+    "college": "경상대학",
+    "department": "Global Business & Technology전공",
+    "major_code": "ARDA1",
+    "course_code": "P05406",
+    "course_name": "졸업프로젝트실습(캡스톤디자인)",
+    "note": "1전공생만 필수, 이수시 졸업시험 면제, 이중전공생 수강불가"
+  },
+  {
+    "college": "경상대학",
+    "department": "Global Business & Technology전공",
+    "major_code": "ARDA1",
+    "course_code": "P05103",
+    "course_name": "컴퓨터프로그래밍",
+    "note": "컴퓨터적사고도 인정"
+  },
+  {
+    "college": "경상대학",
+    "department": "Global Business & Technology전공",
+    "major_code": "ARDA1",
+    "course_code": "D01205",
+    "course_name": "회계원리",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "U61601",
+    "course_name": "미적분학및연습1",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "U61602",
+    "course_name": "미적분학및연습2",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "F01257",
+    "course_name": "선형대수학및연습1",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "F01258",
+    "course_name": "선형대수학및연습2",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "F01201",
+    "course_name": "해석학개론1",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "수학과",
+    "major_code": "ASHA2",
+    "course_code": "F01202",
+    "course_name": "해석학개론2",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F01459",
+    "course_name": "수리통계학",
+    "note": "2007학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F10209",
+    "course_name": "통계행렬론",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F10376",
+    "course_name": "확률분포론",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F01210",
+    "course_name": "회귀분석",
+    "note": "회귀분석1(F10303)도 인정"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F10106",
+    "course_name": "통계학개론",
+    "note": "이중전공만 해당"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "통계학과",
+    "major_code": "ASHB2",
+    "course_code": "F10107",
+    "course_name": "통계학의활용및실습",
+    "note": "2022학번 이후 1전공생에 한함"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "전자물리학과",
+    "major_code": "ASIB2",
+    "course_code": "F02016",
+    "course_name": "일반물리1",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "전자물리학과",
+    "major_code": "ASIB2",
+    "course_code": "F02017",
+    "course_name": "일반물리2",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "전자물리학과",
+    "major_code": "ASIB2",
+    "course_code": "F02018",
+    "course_name": "일반물리실험1",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "전자물리학과",
+    "major_code": "ASIB2",
+    "course_code": "F02019",
+    "course_name": "일반물리실험2",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "환경학과",
+    "major_code": "ASJA2",
+    "course_code": "F08121",
+    "course_name": "환경공학개론",
+    "note": "환경공학개론및실험(F08122)도 인정"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "환경학과",
+    "major_code": "ASJA2",
+    "course_code": "F08465",
+    "course_name": "환경미생물학",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F09205",
+    "course_name": "생명공학실험1",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F09207",
+    "course_name": "생명공학실험2",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F09304",
+    "course_name": "고급생명공학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F09201",
+    "course_name": "일반미생물학1",
+    "note": "일반미생물학및실험(1)(F09101)도 인정"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F09202",
+    "course_name": "일반미생물학2",
+    "note": "일반미생물학및실험(2)(F09102)도 인정"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F08101",
+    "course_name": "일반생물학1",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "생명공학과",
+    "major_code": "ASJB2",
+    "course_code": "F08102",
+    "course_name": "일반생물학2",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03210",
+    "course_name": "무기화학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03304",
+    "course_name": "물리화학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03209",
+    "course_name": "분석화학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03351",
+    "course_name": "생화학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03200",
+    "course_name": "유기화학실험",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F02005",
+    "course_name": "일반화학및실험1",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F02006",
+    "course_name": "일반화학및실험2",
+    "note": null
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03367",
+    "course_name": "화학특수연구1",
+    "note": "[화학특수연구1,2] 중 택1"
+  },
+  {
+    "college": "자연과학대학",
+    "department": "화학과",
+    "major_code": "ASJC2",
+    "course_code": "F03362",
+    "course_name": "화학특수연구2(캡스톤디자인)",
+    "note": "[화학특수연구1,2] 중 택1"
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "D03380",
+    "course_name": "경영과학",
+    "note": null
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "T02103",
+    "course_name": "경영수학",
+    "note": null
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "T02201",
+    "course_name": "공학통계",
+    "note": "공학통계및실습(T02215)도 인정"
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "T06304",
+    "course_name": "데이터마이닝응용",
+    "note": "2017학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "T02353",
+    "course_name": "생산계획및통제",
+    "note": null
+  },
+  {
+    "college": "공과대학",
+    "department": "산업경영공학과",
+    "major_code": "ATB02",
+    "course_code": "T02205",
+    "course_name": "공학경제",
+    "note": null
+  },
+  {
+    "college": "공과대학",
+    "department": "정보통신공학과",
+    "major_code": "ATFB2",
+    "course_code": "T04343",
+    "course_name": "데이터통신",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "정보통신공학과",
+    "major_code": "ATFB2",
+    "course_code": "T01301",
+    "course_name": "신호및시스템",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "정보통신공학과",
+    "major_code": "ATFB2",
+    "course_code": "V44303",
+    "course_name": "자료구조",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "정보통신공학과",
+    "major_code": "ATFB2",
+    "course_code": "F05461",
+    "course_name": "컴퓨터네트워크",
+    "note": "2012학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "전자공학과",
+    "major_code": "ATGA2",
+    "course_code": "T03113",
+    "course_name": "전기회로",
+    "note": "전기회로및실습도 인정"
+  },
+  {
+    "college": "공과대학",
+    "department": "전자공학과",
+    "major_code": "ATGA2",
+    "course_code": "T03307",
+    "course_name": "전자공학종합설계프로젝트",
+    "note": "2014학번 이후"
+  },
+  {
+    "college": "공과대학",
+    "department": "전자공학과",
+    "major_code": "ATGA2",
+    "course_code": "T03309",
+    "course_name": "전자회로설계",
+    "note": "2014학번 ~ 2017학번"
+  },
+  {
+    "college": "공과대학",
+    "department": "전자공학과",
+    "major_code": "ATGA2",
+    "course_code": "T03301",
+    "course_name": "프로세서응용종합설계",
+    "note": "2014학번 ~ 2017학번"
+  },
+  {
+    "college": "공과대학",
+    "department": "컴퓨터.전자시스템공학전공",
+    "major_code": "ATIA1",
+    "course_code": "F05401",
+    "course_name": "캡스톤설계",
+    "note": "1전공생만 필수"
+  },
+  {
+    "college": "공과대학",
+    "department": "컴퓨터.전자시스템공학전공",
+    "major_code": "ATIA1",
+    "course_code": "T01107",
+    "course_name": "컴퓨터개론및실습",
+    "note": "1전공생만 필수, 공과대학(공통) 개설 교과목, 2019학번 이전, 2020학번부터 제외"
+  },
+  {
+    "college": "공과대학",
+    "department": "컴퓨터.전자시스템공학전공",
+    "major_code": "ATIA1",
+    "course_code": "F05108",
+    "course_name": "컴퓨터프로그래밍및실습",
+    "note": "1전공생만 필수, 공과대학(공통) 개설 교과목"
+  },
+  {
+    "college": "공과대학",
+    "department": "컴퓨터공학전공",
+    "major_code": "ATIA1",
+    "course_code": "F05401",
+    "course_name": "캡스톤설계및실습",
+    "note": "1전공생만 필수"
+  },
+  {
+    "college": "바이오메디컬공학부",
+    "department": "바이오메디컬공학전공",
+    "major_code": "AYAA1",
+    "course_code": "T10403",
+    "course_name": "BME캡스톤디자인실습",
+    "note": null
+  },
+  {
+    "college": "바이오메디컬공학부",
+    "department": "바이오메디컬공학전공",
+    "major_code": "AYAA1",
+    "course_code": "T10308",
+    "course_name": "바이오확률통계",
+    "note": null
+  },
+  {
+    "college": "바이오메디컬공학부",
+    "department": "바이오메디컬공학전공",
+    "major_code": "AYAA1",
+    "course_code": "T10202",
+    "course_name": "의용회로및실습",
+    "note": null
+  }
+]
