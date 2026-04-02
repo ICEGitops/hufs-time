@@ -6,7 +6,7 @@ RUN npm ci --omit=dev
 COPY . .
 
 ENV PORT=8080
-ENV BASE_PATH=/hufs-time-back
+ENV BASE_PATH=/hufs-timetable-back
 
 EXPOSE 8080
 CMD ["node", "src/index.js"]
