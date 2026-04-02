@@ -1,13 +1,13 @@
-import { getDatabase } from '../config/database.js'
+import { getAll } from '../config/database.js'
 
-export function findAll(campus) {
-  const db = getDatabase()
+export async function findAll(campus) {
   if (campus) {
-    return db.prepare(
-      'SELECT id, name, college, campus, created_at FROM departments WHERE campus = ? ORDER BY name'
-    ).all(campus)
+    return getAll(
+      'SELECT id, name, college, campus, created_at FROM departments WHERE campus = $1 ORDER BY name',
+      [campus]
+    )
   }
-  return db.prepare(
+  return getAll(
     'SELECT id, name, college, campus, created_at FROM departments ORDER BY name'
-  ).all()
+  )
 }

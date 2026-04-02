@@ -15,9 +15,9 @@ router.post('/run', async (req, res, next) => {
 })
 
 // GET /api/scraper/status — 최근 스크래핑 상태
-router.get('/status', (req, res, next) => {
+router.get('/status', async (req, res, next) => {
   try {
-    const logs = scraperService.getScrapeStatus()
+    const logs = await scraperService.getScrapeStatus()
     res.json({ success: true, data: logs })
   } catch (error) {
     next(error)

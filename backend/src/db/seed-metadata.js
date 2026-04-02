@@ -1,10 +1,9 @@
 import { readFileSync, existsSync } from 'fs'
 import path from 'path'
-import { initDatabase, getDatabase } from '../config/database.js'
+import { initDatabase, withTransaction, getOne, getAll, closePool } from '../config/database.js'
 
-function seedMetadata() {
-  initDatabase()
-  const db = getDatabase()
+async function seedMetadata() {
+  await initDatabase()
   const dataDir = path.join(process.cwd(), 'data')
 
   const requiredPath = path.join(dataDir, 'required-courses.json')
@@ -23,59 +22,55 @@ function seedMetadata() {
   const crossMajor = JSON.parse(readFileSync(crossMajorPath, 'utf-8'))
   const banned = JSON.parse(readFileSync(bannedPath, 'utf-8'))
 
-  const insertRequired = db.prepare(`
-    INSERT INTO required_courses (department, major_code, course_code, course_name, note)
-    VALUES (?, ?, ?, ?, ?)
-  `)
-  const insertCrossMajor = db.prepare(`
-    INSERT INTO cross_major_courses (receiving_department, offering_department, course_name, note)
-    VALUES (?, ?, ?, ?)
-  `)
-  const insertBanned = db.prepare(`
-    INSERT INTO banned_courses (department, course_name) VALUES (?, ?)
-  `)
-
-  const doSeed = db.transaction(() => {
-    db.exec('DELETE FROM required_courses')
-    db.exec('DELETE FROM cross_major_courses')
-    db.exec('DELETE FROM banned_courses')
+  await withTransaction(async (client) => {
+    await client.query('DELETE FROM required_courses')
+    await client.query('DELETE FROM cross_major_courses')
+    await client.query('DELETE FROM banned_courses')
 
     for (const r of required) {
-      insertRequired.run(r.department, r.major_code, r.course_code, r.course_name, r.note)
+      await client.query(
+        'INSERT INTO required_courses (department, major_code, course_code, course_name, note) VALUES ($1, $2, $3, $4, $5)',
+        [r.department, r.major_code, r.course_code, r.course_name, r.note]
+      )
     }
 
     for (const c of crossMajor) {
-      insertCrossMajor.run(c.receiving_department, c.offering_department, c.course_name, c.note)
+      await client.query(
+        'INSERT INTO cross_major_courses (receiving_department, offering_department, course_name, note) VALUES ($1, $2, $3, $4)',
+        [c.receiving_department, c.offering_department, c.course_name, c.note]
+      )
     }
 
     for (const b of banned) {
-      insertBanned.run(b.department, b.course_name)
+      await client.query(
+        'INSERT INTO banned_courses (department, course_name) VALUES ($1, $2)',
+        [b.department, b.course_name]
+      )
     }
   })
 
-  doSeed()
-
-  // 검증
-  const rCount = db.prepare('SELECT COUNT(*) as cnt FROM required_courses').get().cnt
-  const cCount = db.prepare('SELECT COUNT(*) as cnt FROM cross_major_courses').get().cnt
-  const bCount = db.prepare('SELECT COUNT(*) as cnt FROM banned_courses').get().cnt
+  const rCount = await getOne('SELECT COUNT(*) as cnt FROM required_courses')
+  const cCount = await getOne('SELECT COUNT(*) as cnt FROM cross_major_courses')
+  const bCount = await getOne('SELECT COUNT(*) as cnt FROM banned_courses')
 
   console.log(`Metadata seeded:`)
-  console.log(`  required_courses: ${rCount}`)
-  console.log(`  cross_major_courses: ${cCount}`)
-  console.log(`  banned_courses: ${bCount}`)
+  console.log(`  required_courses: ${rCount.cnt}`)
+  console.log(`  cross_major_courses: ${cCount.cnt}`)
+  console.log(`  banned_courses: ${bCount.cnt}`)
 
-  // 샘플
-  const reqDepts = db.prepare('SELECT DISTINCT department FROM required_courses LIMIT 5').all()
+  const reqDepts = await getAll('SELECT DISTINCT department FROM required_courses LIMIT 5')
   console.log(`\nRequired course departments (sample): ${reqDepts.map(d => d.department).join(', ')}`)
 
-  const crossDepts = db.prepare('SELECT DISTINCT receiving_department FROM cross_major_courses LIMIT 5').all()
+  const crossDepts = await getAll('SELECT DISTINCT receiving_department FROM cross_major_courses LIMIT 5')
   console.log(`Cross-major departments (sample): ${crossDepts.map(d => d.receiving_department).join(', ')}`)
 
-  const banDepts = db.prepare('SELECT DISTINCT department FROM banned_courses LIMIT 5').all()
+  const banDepts = await getAll('SELECT DISTINCT department FROM banned_courses LIMIT 5')
   console.log(`Banned course departments (sample): ${banDepts.map(d => d.department).join(', ')}`)
 
-  db.close()
+  await closePool()
 }
 
-seedMetadata()
+seedMetadata().catch(err => {
+  console.error(err)
+  process.exit(1)
+})

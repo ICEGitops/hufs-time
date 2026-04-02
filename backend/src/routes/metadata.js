@@ -4,7 +4,7 @@ import { getCrossMajorLectures } from '../models/course-metadata.js'
 const router = Router()
 
 // GET /api/metadata/cross-major?department=정보통신공학과
-router.get('/cross-major', (req, res, next) => {
+router.get('/cross-major', async (req, res, next) => {
   try {
     const { department } = req.query
     if (!department) {
@@ -14,7 +14,7 @@ router.get('/cross-major', (req, res, next) => {
       })
     }
 
-    const lectures = getCrossMajorLectures(department)
+    const lectures = await getCrossMajorLectures(department)
     res.json({
       success: true,
       data: lectures,

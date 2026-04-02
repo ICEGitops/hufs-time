@@ -1,16 +1,16 @@
 -- 학과 테이블
 CREATE TABLE IF NOT EXISTS departments (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   college TEXT,
   campus TEXT DEFAULT 'H1',
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   UNIQUE(name, campus)
 );
 
 -- 강의 테이블
 CREATE TABLE IF NOT EXISTS lectures (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   course_code TEXT NOT NULL,
   course_name TEXT NOT NULL,
   professor TEXT,
@@ -22,14 +22,15 @@ CREATE TABLE IF NOT EXISTS lectures (
   enrolled INTEGER DEFAULT 0,
   note TEXT,
   semester TEXT,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  gubun TEXT DEFAULT '1',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (department_id) REFERENCES departments(id)
 );
 
 -- 강의 시간 테이블
 CREATE TABLE IF NOT EXISTS lecture_times (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   lecture_id INTEGER NOT NULL,
   day_of_week TEXT NOT NULL,
   start_time TEXT NOT NULL,
@@ -40,9 +41,9 @@ CREATE TABLE IF NOT EXISTS lecture_times (
 
 -- 스크래핑 로그
 CREATE TABLE IF NOT EXISTS scrape_logs (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  started_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  completed_at DATETIME,
+  id SERIAL PRIMARY KEY,
+  started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  completed_at TIMESTAMP,
   status TEXT DEFAULT 'running',
   total_count INTEGER DEFAULT 0,
   error_message TEXT
@@ -50,7 +51,7 @@ CREATE TABLE IF NOT EXISTS scrape_logs (
 
 -- 전공필수 교과목 (수강유의 Sheet II)
 CREATE TABLE IF NOT EXISTS required_courses (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   department TEXT NOT NULL,
   major_code TEXT,
   course_code TEXT NOT NULL,
@@ -60,7 +61,7 @@ CREATE TABLE IF NOT EXISTS required_courses (
 
 -- 전공교류 교과목 (수강유의 Sheet III)
 CREATE TABLE IF NOT EXISTS cross_major_courses (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   receiving_department TEXT NOT NULL,
   offering_department TEXT,
   course_name TEXT NOT NULL,
@@ -69,7 +70,7 @@ CREATE TABLE IF NOT EXISTS cross_major_courses (
 
 -- 수강금지 교양 교과목 (수강유의 Sheet IV)
 CREATE TABLE IF NOT EXISTS banned_courses (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   department TEXT NOT NULL,
   course_name TEXT NOT NULL
 );
@@ -79,6 +80,7 @@ CREATE INDEX IF NOT EXISTS idx_lectures_department ON lectures(department_id);
 CREATE INDEX IF NOT EXISTS idx_lectures_category ON lectures(category);
 CREATE INDEX IF NOT EXISTS idx_lectures_year ON lectures(year_level);
 CREATE INDEX IF NOT EXISTS idx_lectures_semester ON lectures(semester);
+CREATE INDEX IF NOT EXISTS idx_lectures_gubun ON lectures(gubun);
 CREATE INDEX IF NOT EXISTS idx_lecture_times_lecture ON lecture_times(lecture_id);
 CREATE INDEX IF NOT EXISTS idx_lecture_times_day ON lecture_times(day_of_week);
 CREATE INDEX IF NOT EXISTS idx_required_dept ON required_courses(department);

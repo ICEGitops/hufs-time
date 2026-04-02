@@ -1,63 +1,71 @@
-import Database from 'better-sqlite3'
+import pg from 'pg'
 import { readFileSync } from 'fs'
 import path from 'path'
 
-const DB_PATH = process.env.DB_PATH || path.join(process.cwd(), 'data', 'timetable.db')
+const { Pool } = pg
 
-let db
+let pool
 
-export function getDatabase() {
-  if (!db) {
-    db = new Database(DB_PATH)
-    db.pragma('journal_mode = WAL')
-    db.pragma('foreign_keys = ON')
+export function getPool() {
+  if (!pool) {
+    pool = new Pool({
+      connectionString: process.env.DATABASE_URL,
+      ssl: process.env.DATABASE_URL?.includes('localhost') ? false : { rejectUnauthorized: false },
+      max: 10,
+      idleTimeoutMillis: 30000,
+      connectionTimeoutMillis: 10000
+    })
   }
-  return db
+  return pool
 }
 
-export function initDatabase() {
-  const database = getDatabase()
+export async function query(sql, params = []) {
+  return getPool().query(sql, params)
+}
+
+export async function getAll(sql, params = []) {
+  const result = await query(sql, params)
+  return result.rows
+}
+
+export async function getOne(sql, params = []) {
+  const result = await query(sql, params)
+  return result.rows[0] || null
+}
+
+export async function run(sql, params = []) {
+  const result = await query(sql, params)
+  return { rowCount: result.rowCount, rows: result.rows }
+}
+
+export async function withTransaction(fn) {
+  const client = await getPool().connect()
+  try {
+    await client.query('BEGIN')
+    const result = await fn(client)
+    await client.query('COMMIT')
+    return result
+  } catch (error) {
+    await client.query('ROLLBACK')
+    throw error
+  } finally {
+    client.release()
+  }
+}
+
+export async function initDatabase() {
+  const p = getPool()
   const schema = readFileSync(
     path.join(process.cwd(), 'src', 'db', 'schema.sql'),
     'utf-8'
   )
-  database.exec(schema)
-  runMigrations(database)
+  await p.query(schema)
   console.log('Database initialized')
 }
 
-function runMigrations(database) {
-  // departments 테이블에 campus 컬럼 추가 + UNIQUE 제약 변경
-  const columns = database.pragma('table_info(departments)')
-  const hasCampus = columns.some(col => col.name === 'campus')
-  if (!hasCampus) {
-    // FK 제약 임시 해제 후 테이블 재구성
-    database.pragma('foreign_keys = OFF')
-    database.exec(`
-      DROP TABLE IF EXISTS departments_new;
-      CREATE TABLE departments_new (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT NOT NULL,
-        college TEXT,
-        campus TEXT DEFAULT 'H1',
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        UNIQUE(name, campus)
-      );
-      INSERT INTO departments_new (id, name, college, created_at)
-        SELECT id, name, college, created_at FROM departments;
-      DROP TABLE departments;
-      ALTER TABLE departments_new RENAME TO departments;
-    `)
-    database.pragma('foreign_keys = ON')
-    console.log('Migration: rebuilt departments table with campus column')
-  }
-
-  // lectures 테이블에 gubun 컬럼 추가
-  const lecCols = database.pragma('table_info(lectures)')
-  const hasGubun = lecCols.some(col => col.name === 'gubun')
-  if (!hasGubun) {
-    database.exec("ALTER TABLE lectures ADD COLUMN gubun TEXT DEFAULT '1'")
-    database.exec('CREATE INDEX IF NOT EXISTS idx_lectures_gubun ON lectures(gubun)')
-    console.log('Migration: added gubun column to lectures')
+export async function closePool() {
+  if (pool) {
+    await pool.end()
+    pool = null
   }
 }

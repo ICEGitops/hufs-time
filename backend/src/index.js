@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
-import { initDatabase } from './config/database.js'
+import { initDatabase, closePool } from './config/database.js'
 import lectureRoutes from './routes/lectures.js'
 import departmentRoutes from './routes/departments.js'
 import scraperRoutes from './routes/scraper.js'
@@ -32,7 +32,13 @@ app.use(`${BASE_PATH}/api/metadata`, metadataRoutes)
 app.use(errorHandler)
 
 // DB 초기화 후 서버 시작
-initDatabase()
+await initDatabase()
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
+})
+
+// Graceful shutdown
+process.on('SIGTERM', async () => {
+  await closePool()
+  process.exit(0)
 })

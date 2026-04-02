@@ -1,11 +1,11 @@
 import * as lectureModel from '../models/lecture.js'
 import * as courseMetadata from '../models/course-metadata.js'
 
-export function getLectures(query = {}) {
+export async function getLectures(query = {}) {
   const page = Math.max(1, parseInt(query.page) || 1)
   const limit = Math.min(Math.max(1, parseInt(query.limit) || 50), 100)
 
-  const result = lectureModel.findAll({
+  const result = await lectureModel.findAll({
     department: query.department || undefined,
     year: query.year || undefined,
     category: query.category || undefined,
@@ -17,14 +17,14 @@ export function getLectures(query = {}) {
   })
 
   if (query.my_department) {
-    result.lectures = annotateMetadata(result.lectures, query.my_department)
+    result.lectures = await annotateMetadata(result.lectures, query.my_department)
   }
 
   return result
 }
 
-export function getLectureById(id, myDepartment) {
-  const lecture = lectureModel.findById(id)
+export async function getLectureById(id, myDepartment) {
+  const lecture = await lectureModel.findById(id)
   if (!lecture) {
     const error = new Error('해당 강의를 찾을 수 없습니다.')
     error.status = 404
@@ -33,12 +33,12 @@ export function getLectureById(id, myDepartment) {
   }
 
   if (myDepartment) {
-    return annotateMetadata([lecture], myDepartment)[0]
+    return (await annotateMetadata([lecture], myDepartment))[0]
   }
   return lecture
 }
 
-export function searchLectures(q, page = 1, limit = 50, myDepartment) {
+export async function searchLectures(q, page = 1, limit = 50, myDepartment) {
   page = Math.max(1, parseInt(page) || 1)
   limit = Math.min(Math.max(1, parseInt(limit) || 50), 100)
 
@@ -46,18 +46,17 @@ export function searchLectures(q, page = 1, limit = 50, myDepartment) {
     return { lectures: [], total: 0, page, limit }
   }
 
-  const result = lectureModel.search(q.trim(), page, limit)
+  const result = await lectureModel.search(q.trim(), page, limit)
 
   if (myDepartment) {
-    result.lectures = annotateMetadata(result.lectures, myDepartment)
+    result.lectures = await annotateMetadata(result.lectures, myDepartment)
   }
 
   return result
 }
 
-// 강의 목록에 메타데이터(필수/교류/금지) 추가
-function annotateMetadata(lectures, department) {
-  const { requiredList, crossMajor, banned } = courseMetadata.getAllMetadata(department)
+async function annotateMetadata(lectures, department) {
+  const { requiredList, crossMajor, banned } = await courseMetadata.getAllMetadata(department)
 
   return lectures.map(lecture => {
     const reqMatch = courseMetadata.matchRequired(lecture.course_code, requiredList)
